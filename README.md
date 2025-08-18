@@ -31,4 +31,4 @@ Follow the on-screen instructions to enter a phone number and get detailed infor
 
 🌐 Useful Links
 
-Official Discord: https://discord.gg/yVwNCfEx
+for join discord comme here  : https://guns.lol/akiro.dev
