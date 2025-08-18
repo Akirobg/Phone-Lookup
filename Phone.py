@@ -37,7 +37,7 @@ def phone_lookup():
         if data.get('valid'):
             print(f"✔️ Numéro valide")
             print(f"🌍 Pays : {data.get('country_name')} ({data.get('country_code')})")
-            print("🏙️ Localisation : Montpellier 15 Rue des Primevères")
+            print("🏙️ Localisation : pas disponible")
             print(f"📞 Format national : {data.get('local_format')}")
             print(f"🌐 Format international : {data.get('international_format')}")
             print(f"📶 Opérateur : {data.get('carrier')}")
