@@ -1,5 +1,5 @@
 LOOKUP IP.py is a powerful Python tool to quickly gather detailed information about any phone number. It integrates multiple APIs to provide accurate data while offering a clean and stylish console interface.
-
+OWNER : Akiro  IMPORTANT! If it shows you Montpellier 15 Rue des Primevères in location, it's a bug, it's not available!!!
 ⚡ Key Features
 
 Validates phone numbers using Numverify and AbstractAPI
