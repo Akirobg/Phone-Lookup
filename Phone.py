@@ -27,7 +27,7 @@ def phone_lookup():
     print("\n--- PHONE LOOKUP V1 ---")
     phone = input("Entrez le numéro (ex : +33612345678) : ").strip()
 
-    # === 1. NUMVERIFY ===
+
     try:
         print("\n[🔍 Numverify] Informations générales...")
         url = f"http://apilayer.net/api/validate?access_key={PHONE_API_KEY}&number={phone}&format=1"
@@ -47,7 +47,7 @@ def phone_lookup():
     except Exception as e:
         print("⚠️ Erreur Numverify :", e)
 
-    # === 2. ABSTRACT API ===
+   
     try:
         print("\n[📊 AbstractAPI] Données avancées...")
         url = f"https://phonevalidation.abstractapi.com/v1/?api_key={ABSTRACT_API_KEY}&phone={phone}"
@@ -66,7 +66,6 @@ def phone_lookup():
     except Exception as e:
         print("⚠️ Erreur AbstractAPI :", e)
 
-    # === 3. Truecaller (non implémenté ici) ===
     print("\n[🕵️ Truecaller] Recherche d'identité...")
     print("⚠️ Module non officiel Truecaller non intégré dans cette version (protection nécessaire).")
 
